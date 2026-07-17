@@ -1,0 +1,33 @@
+# 网站基本信息
+title = "我的学习笔记"
+
+# 模块配置
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/gohugo-ananke/ananke/v2'
+
+# 菜单配置
+[[menu.main]]
+url = "/"
+weight = 1
+identifier = "home"
+
+[[menu.main]]
+url = "/posts/"
+weight = 2
+identifier = "posts"
+
+[[menu.main]]
+url = "javascript:void(0)"
+weight = 3
+identifier = "search"
+# 配置首页输出格式，必须包含 JSON
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 主题参数配置
+[params]
+  mainSections = ["posts"]

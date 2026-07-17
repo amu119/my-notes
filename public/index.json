@@ -1,0 +1,17 @@
+[
+  
+    
+    {
+      "title": "我的第一篇 Hugo 文章",
+      "url": "/posts/my-first-post/",
+      "content": "搭建过程回顾 今天终于把网站搭起来了！整个流程其实非常顺畅：\n使用 hugo mod init 初始化了模块。\n在 hugo.toml 中配置了 [[module.imports]] 引入 Ananke v2 主题。\n运行 hugo mod tidy 自动下载了依赖。\n下一步计划 接下来我打算：\n学习如何自定义 Ananke 主题的样式。\n添加更多的文章分类。\n将网站部署到 GitHub Pages 上\nHugo 的速度真的非常快，本地预览几乎是秒开！\n"
+    }
+  
+    ,
+    {
+      "title": "搜索",
+      "url": "/search/",
+      "content": ""
+    }
+  
+]
