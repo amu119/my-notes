@@ -1,16 +1,16 @@
 ---
 
-title: "我的第一篇 Hugo 文章" 
+title: "分布式事务seata" 
 
 date: 2026-07-16T20:30:00+08:00 
 
 draft: false 
 
-tags: ["Hugo", "学习笔记"] 
+tags: ["seata", "分布式事务"] 
 
 categories: ["技术"] 
 
-summary: "这是我使用 Hugo 模块系统搭建网站后发布的第一篇文章。" 
+summary: "分布式事务seata。" 
 
 ---
 
